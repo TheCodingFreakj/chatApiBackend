@@ -16,6 +16,7 @@ const corsOpts = {
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
 };
+//This is for cors
 
 app.use(cors(corsOpts));
 // app.use(express.static(__dirname + '/dist'));
