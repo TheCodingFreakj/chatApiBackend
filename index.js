@@ -16,7 +16,7 @@ const corsOpts = {
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
 };
-
+//jhgbj
 
 app.use(cors(corsOpts));
 // app.use(express.static(__dirname + '/dist'));
